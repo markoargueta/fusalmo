@@ -1,0 +1,9 @@
+Asignación 2
+
+- Crear una página web que solicite al usuario un número entero positivo “N” luego se deben de crear las tablas del 1 hasta el número “N”.
+- Cada número resultado de la multiplicación debe indicarnos si es par o impar, por medio de texto y colores.
+- Si es Par será de color Azul.
+- Si es Impar será color Tomate.
+- Las tablas deben mostrase 3 por fila.
+- Cada tabla debe tener el título “Tabla del N”.
+- Cata tabla de multiplicar debe ser N x 1 hasta N x 10.
