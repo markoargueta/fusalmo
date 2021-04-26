@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignación Dos</title>
+    <style>
+        div{
+            border: solid black;
+            width: 30%; /*CON ESTO HAGO LAS TRES COLUMNAS.*/
+            margin: 1%;
+            float: left;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            
+            font-size: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+     
+    <script>
+       
+       //SOLICITANDO NÚMERO AL USUARIO.
+        var num1 = Number(prompt("Ingrese un número entero positivo:"));
+
+        //UTILIZO EL SIGUIENTE IF COMO VALIDACIÓN.
+        //SI INGRESA 0 (CERO), NÚMERO NEGATIVO O TEXTO MANDARÁ MENSAJE.
+        if(num1>0){
+
+        document.write("<h1>Mostrando tabla desde la 1 hasta la " + num1 +"</h1>");
+        
+        var multiplicacion;
+        var estilo;
+        var espar;
+
+        for (let i=1; i<=num1; i++) {
+
+            //CON EL SIGUIENTE DIV SE HARÁN LAS TRES COLUMNAS.
+            document.write("<div>");
+
+            document.write("<h2>TABLA DEL "+i+"</h2><hr>");            
+
+            for (let j = 1; j < 11; j++) {
+                
+                multiplicacion=i*j;
+                //El resultado de multiplicar i*j evaluamos si es par o impar.
+                if(multiplicacion%2==0){
+                    estilo = "blue";
+                    espar = "PAR";
+
+                } else{
+                    estilo = "tomato";
+                    espar = "IMPAR";
+                }
+                
+                document.write("<p>"+i + " X " + j + " = " + "<span style='color:"+estilo+";'>" + multiplicacion + " " + espar + "</span></p>");
+               
+            } //FIN DEL FOR j.
+
+            //FIN DEL DIV.
+            document.write("</div>");
+
+        } //FIN DEL FOR i.
+
+    }//FIN DEL if if(num1>0)
+
+    //SI INGRESA 0 (CERO), NÚMERO NEGATIVO O TEXTO MANDARÁ MENSAJE.
+    else{
+        document.write("<h1>Dato no válido</h1>");
+    }
+    
+    </script>
+    
+</body>
+</html>
