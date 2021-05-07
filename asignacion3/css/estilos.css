@@ -1,0 +1,59 @@
+header{
+    margin-top: 25px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+aside{
+    margin-top: 20px;
+    float: left;
+    border: 1px solid black;
+    height: 500px;
+}
+
+section{
+    margin-top: 20px;
+    /*margin-left: 50px;*/
+    float: left;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.miformulario{
+    margin-top: 20%;
+    text-align: center;
+}
+
+#mitabla{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#Nombres{
+    margin-top: 20px;
+    padding: 10px;
+    clear: both;
+    float: left;
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+}
+#resultados{
+    margin-top: 20px;
+    padding: 8px;
+    padding-left: 25px;
+    float: left;
+    border: 1px solid black;
+    height: 80px;
+}
+
+#miFooter{
+    margin-top: 20px;
+    float: left;
+    border: 1px solid black;
+    height: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 15px;
+}

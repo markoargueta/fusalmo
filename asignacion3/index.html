@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/estilos.css" rel="stylesheet" >
+    <script src="js/script.js"></script>
+    <title>Sistema de Inventario</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <header>
+            <h1>Sistema de Inventario</h1>
+        </header>
+       
+
+        <aside class="col-3">
+
+            <form class="miformulario">
+            <!--<div class="miformulario">-->
+                <p>Código:<br><input type="text" name="codigo" id="codigo" placeholder="Código" required/></p>
+                <p>Elemento:<br><input type="text" name="elemento" id="elemento" placeholder="Elemento" required/></p>
+                <p>Costo:<br><input type="number" name="costo" id="costo" step="0.1" placeholder="Costo" required/></p>
+                <p>Fecha de Ingreso:<br><input type="date" name="fechaIngreso" id="fecha" required/></p>
+
+                <button onclick="agregar()" class="btn btn-secondary">Ingresar</button>
+            <!--</div>-->
+                </form>
+
+        </aside>
+        
+        <section class="col-9">
+            
+            <table class="table table-striped table-bordered" id="mitabla">
+                <tr>
+                    <td>CÓDIGO</td>
+                    <td>ELEMENTOS</td>
+                    <td>COSTO</td>
+                    <td>FECHA</td>
+                    <td colspan="2">OPCIONES</td>
+                </tr>
+            </table>
+            
+        </section>
+
+        <div class="">
+            <div class="col-3" id="Nombres">
+                <h5>Marco Tulio Argueta Chicas</h5>
+                <p id="horaActual"></p>
+
+            </div>
+            <div class="col-9" id="resultados">
+                <p>Total de Costo: <span id="totalCosto">0</span></p>
+                <p >Total de Elementos: <span id="totalElementos">0</span></p>
+
+            </div>
+
+        </div>
+
+        <footer class="col-12" id="miFooter">
+            <h3>Copyright © 2021 Sistema de Inventario Fusalmo</h3>
+        </footer>
+
+    </div>
+</body>
+</html>
