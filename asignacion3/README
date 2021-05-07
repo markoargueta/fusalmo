@@ -1,0 +1,17 @@
+Asignación 3
+
+Se solicita una página que posea un formulario para añadir elementos a un inventario, los elementos de un inventario son:
+- Código (Campo Text).
+- Elemento (Campo Text)3
+- Costo (Campo Number con step 0.1).
+- Fecha de Ingreso (Campo Date).
+Cada elemento del inventario debe de llevar un costo que debe sumarse al final de la tabla, además de la totalidad de los elementos.
+
+Ver imagen asignación.png
+
+Notas:
+- Puntos Extras si se colocan un botón para eliminar elemento de la tabla de inventario.
+- Puntos Extras si se colocan un botón para editar elemento de la tabla de inventario.
+- Se puede utilizar Framewors de Boostrap, JQuery.
+- Tener en cuenta puede ser utilizaro arreglo de objetos, createElement, etc.
+- Hora debe mostrar segundos y cambiar automaticamente.
