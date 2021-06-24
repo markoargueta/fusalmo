@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de comida</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <!-- Header -->
+            <div id="header" class="col-md-12 border p-2 bg-dark">
+                <h1 class="text-white">Recetas de Comida</h1>
+            </div>
+            <!-- Fin Header -->
+
+            <!-- Aside -->
+            <div class="col-md-2 border">
+                <ul class="nav d-inline">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Recetas</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#">Añadir Receta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contáctanos</a></li>
+                </ul>
+            </div>
+            <!-- Fin Aside -->
+
+            <!-- Contenido -->
+            <div class="col-md-10 border" id="contenido">
+
+                <table class="table table-bordered mt-4">
+                    <tr>
+                        <td colspan="2">Aros de cebolla con harina de arroz.</td>
+                    </tr>
+                    <tr>
+                        <td width="50%" >Ingredientes
+                            <ul>
+                                <li>1 taza de Harina de Arroz.</li>
+                                <li>Aceite</li>
+                                <li>Agua</li>
+                                <li>1 Cebolla</li>
+                                <li>Condimentos (sal, pimienta, comino.</li>
+                            </ul>
+                        </td>
+                        <td width="50%" align="center"><img src="./img/comida.jpg"  width="300px" height="150px"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Procedimiento
+                            <ul>
+                                <li>Mezclar los ingredientes secos.</li>
+                                <li>Calentar el aceite para freir.</li>
+                                <li>Cortar la cebolla en aros.</li>
+                            </ul>
+                        </td>
+                    </tr>   
+                </table>
+
+
+            </div>
+            <!-- Fin Contenido -->
+
+            <!-- Footer -->
+            <div class="col-md-12 border text-center p-2 bg-dark">
+                <h3 class="text-white">Copyright © 2021 Sistema de Recetas Fusalmo</h3>
+            </div>
+            <!-- Fin Footer -->
+            
+        </div><!-- Fin <div class="row"> -->
+    </div><!-- Fin <div class="container"> -->
+
+
+<!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Añadir Receta</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <form class="form-group" action="#">
+            
+                <div class="form-group">
+                    <label class="col-form-label">Título de la receta:</label>
+                    <input type="text" id="titulo" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">Imagen:</label>
+                    <input type="file" id="imagen" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="col-form-label">Ingredientes:</label>
+                    <textarea id="ingredientes" class="form-control" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="col-form-label">Procedimiento:</label>
+                    <textarea id="procedimiento" class="form-control" required></textarea>
+                </div>
+                <!-- <div class="form-group text-center mt-4">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-primary" onclick="agregar()">Añadir</button>
+                </div> -->
+                </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button class="btn btn-primary" onclick="agregar()">Añadir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Modal -->
+
+</body>
+</html>

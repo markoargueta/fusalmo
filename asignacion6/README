@@ -1,0 +1,9 @@
+Asignación 6
+
+Crear una clase Carro que tenga la siguiente información:
+    - Función Constructora (__Init__())
+    - Las propiedades: modelo, color, motor, asientos, marca, puertas, combustible, placa.
+    - Los métodos: acelerar, parquear, echar gasolina, info.
+
+    - Heredar de clase padre Carro a clases TransportePublico, Policial, Bomberos.
+    - Crearmétodos y propiedades apropiadas para las clases hijas.

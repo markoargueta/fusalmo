@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de comida</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <!-- Header -->
+            <div id="header" class="col-md-12 border p-2 bg-dark">
+                <h1 class="text-white">Recetas de Comida</h1>
+            </div>
+            <!-- Fin Header -->
+
+            <!-- Aside -->
+            <div class="col-md-2 border">
+                <ul class="nav d-inline">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recetas.html">Recetas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contáctanos</a></li>
+                </ul>
+            </div>
+            <!-- Fin Aside -->
+
+            <!-- Contenido -->
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 border">
+                
+
+                <div class="row">
+                    
+                    <div class="col-md-3 text-center mt-4">
+                        <h3>Visitanos</h3>
+                        <p>Av. Los Rosales 122<br>
+                            28021, Madrid.<br>
+                            info@misitio.com<br>
+                            Tel: 914-123-456<br>
+                            Fax: 914-123-456</p>
+                            <h3>Llamanos<br>2222-3333</h3>
+                    </div>
+
+                    <div class="col-md-9 border">
+                        <form class="form-group" id="formContacto" action="#">
+                            <div class="form-group">
+                                <label class="col-form-label">Nombres:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-form-label">Apellidos:</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-form-label">Correo Electrónico:</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-form-label">Comentario o mensaje:</label>
+                                <textarea class="form-control" rows="3" required></textarea>
+                            </div>
+                            <div class="form-group text-center mt-4">
+                                <button class="btn btn-primary" onclick="contacto()">Enviar Mensaje</button>
+                            </div>
+                            </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 border">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3880.2073314455633!2d-88.16742343517272!3d13.461313340535982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smapa%20metrocentro%20san%20miguel!5e0!3m2!1ses!2ssv!4v1621646765557!5m2!1ses!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Fin Contenido -->
+
+            <!-- Footer -->
+            <div class="col-md-12 border text-center p-2 bg-dark">
+                <h3 class="text-white">Copyright © 2021 Sistema de Recetas Fusalmo</h3>
+            </div>
+            <!-- Fin Footer -->
+            
+        </div><!-- Fin <div class="row"> -->
+    </div><!-- Fin <div class="container"> -->
+
+</body>
+</html>

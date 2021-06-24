@@ -1,0 +1,12 @@
+Asignación 4
+
+Crear una página web de Cocina utilizando Framework de Bootstrap, esta debe poseer:
+    - Página de Inicio.
+    - Página de Recetas.
+    - Formulario en una ventana modal para añadir nuevas recetas en la sección de contenido, este debe llevar:
+        - Titulo de la Receta (Input type text).
+        - Image (Input type img).
+        - Ingredientes ( Text Area).
+        - Procedimiento ( Text Area).
+    - Página de Contáctenos.
+    - Esta página debe ser de la manera siguiente: (Ver imagen asignación.png).

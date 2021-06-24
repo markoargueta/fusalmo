@@ -1,0 +1,9 @@
+Asignación 5
+
+Crear un script en Python de una calculadora, esta debe de tener las opciones de suma,
+resta, multiplicación, división, modulo, potencia, raíz cuadrado. Debe de tomar en cuenta
+los siguientes requerimientos:
+    - Debe de tener un menú de opciones para cada operación y debe tener una opción para salir.
+    - Deben de utilizar Funciones.
+    - Utilizar módulo de Math y deben de crear un módulo para las operaciones.
+    - Crear un script de recursividad para el factorial de un numero en Python.
